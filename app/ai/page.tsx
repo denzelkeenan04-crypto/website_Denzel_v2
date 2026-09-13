@@ -6,28 +6,28 @@ import Link from "next/link";
 const CAPABILITIES = [
   {
     title: "API-koppelingen",
-    body: "Tools met elkaar laten praten, zodat gegevens automatisch doorstromen in plaats van dat iemand ze overtypt.",
+    body: "Tools met elkaar laten praten, zodat gegevens automatisch doorstromen in plaats van dat ik ze zelf zit over te typen.",
     tag: "Koppelen",
   },
   {
     title: "Lokale agents",
-    body: "AI die op je eigen machine draait en taken zelfstandig uitvoert, zonder dat gevoelige data het pand uit gaat.",
+    body: "AI die op mijn eigen machine draait en taken zelfstandig uitvoert, zonder dat er data ergens anders heen gaat.",
     tag: "Automatiseren",
   },
   {
     title: "Dashboards",
-    body: "Een overzicht waar alles samenkomt, zodat je in een oogopslag ziet hoe het ervoor staat in plaats van vijf tabbladen open te hebben.",
+    body: "Een overzicht waar alles samenkomt, zodat ik in een oogopslag zie hoe het ervoor staat in plaats van vijf tabbladen open te hebben.",
     tag: "Inzicht",
   },
   {
-    title: "Integraties",
-    body: "De tools die een team al gebruikt slimmer laten samenwerken, zodat het werk scheelt in plaats van dat er weer iets bovenop komt.",
-    tag: "Verbinden",
+    title: "Eigen integraties",
+    body: "Kleine koppelingen die mijn eigen werk schelen. Klein beginnen, kijken wat er stukgaat, en het daarna beter maken.",
+    tag: "Bouwen",
   },
 ];
 
 const AMBITIONS = [
-  "Van losse automatiseringen naar oplossingen die een heel proces schelen",
+  "Van losse experimenten naar koppelingen die echt iets schelen",
   "Dieper in agents die context begrijpen in plaats van losse opdrachten uitvoeren",
   "Blijven bouwen en bijleren met Claude als vaste sparringpartner",
 ];
@@ -59,13 +59,17 @@ export default function AiPage() {
           </h1>
           <p className="text-lg text-white leading-relaxed max-w-2xl">
             De meeste mensen gebruiken AI om sneller tekst te maken. Mij interesseert de stap daarna:
-            systemen aan elkaar knopen zodat het werk zichzelf doet, en alles zichtbaar maken op een plek.
+            systemen aan elkaar knopen en kijken hoever ik kom.
+          </p>
+          <p className="text-base text-white leading-relaxed max-w-2xl mt-4 opacity-80">
+            Dit doe ik niet voor klanten. Ik bouw het voor mezelf, om ervaring op te doen en om mijn
+            eigen werk slimmer te maken. Leren door het gewoon te maken.
           </p>
         </Reveal>
 
         <div className="mt-20">
           <Reveal>
-            <p className="text-xs font-mono uppercase tracking-[0.18em] text-white mb-3">Waar ik mee werk</p>
+            <p className="text-xs font-mono uppercase tracking-[0.18em] text-white mb-3">Waar ik mee experimenteer</p>
             <h2 className="text-3xl font-black tracking-tight text-white mb-10">Koppelen, automatiseren, zichtbaar maken.</h2>
           </Reveal>
 
@@ -113,14 +117,13 @@ export default function AiPage() {
                     AI-agents niet in losse documenten leven maar in een systeem samenkomen.
                   </p>
                   <p>
-                    Wat mij daaraan pakt is het probleem dat het oplost. Bij de meeste organisaties zit de strategie in het
-                    ene document, staan de cijfers in het andere en zit de rest in iemands hoofd. Hoe groter het bedrijf
-                    wordt, hoe meer overzicht er verdwijnt. Een plek waar alles zichtbaar is, verandert hoe een team werkt.
+                    Wat mij daaraan pakt is het probleem dat het oplost. Strategie in het ene document, cijfers in het
+                    andere, en de rest in iemands hoofd. Een plek waar alles zichtbaar is, verandert hoe je werkt.
                   </p>
                   <p>
                     Ik heb er niet aan meegebouwd. Ik heb het van dichtbij gezien, vragen gesteld over hoe het in elkaar
-                    zit, en er veel van opgestoken over hoe je zoiets opbouwt. Zelf maak ik dashboards op kleinere schaal:
-                    hetzelfde idee, ander formaat. Zorgen dat je in een scherm ziet wat er speelt.
+                    zit, en er veel van opgestoken. Zelf maak ik dashboards op kleinere schaal, voor mijn eigen projecten:
+                    hetzelfde idee, ander formaat.
                   </p>
                 </div>
 
@@ -180,10 +183,11 @@ export default function AiPage() {
             style={{ background: "rgba(9, 20, 45, 0.72)", border: "1px solid rgba(255,255,255,0.1)" }}
           >
             <h2 className="text-2xl font-black tracking-tight text-white mb-3">
-              Benieuwd wat dit voor jouw organisatie kan betekenen?
+              Werk jij hier ook aan?
             </h2>
             <p className="text-base text-white opacity-90 mb-7 max-w-xl mx-auto">
-              Ik denk graag mee over waar het werk vastloopt en wat je daar slim aan kunt koppelen.
+              Ik leer het meeste van mensen die dit al doen. Zit je in dezelfde hoek of heb je een goed idee waar ik mijn
+              tanden in kan zetten, dan hoor ik het graag.
             </p>
             <Link
               href="/contact"
