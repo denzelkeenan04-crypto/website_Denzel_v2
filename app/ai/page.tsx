@@ -11,7 +11,7 @@ const CAPABILITIES = [
   },
   {
     title: "Lokale agents",
-    body: "AI die op mijn eigen machine draait en taken zelfstandig uitvoert, zonder dat er data ergens anders heen gaat.",
+    body: "AI die lokaal op mijn eigen machine draait en zelf taken oppakt. Uitproberen hoever je daarmee komt.",
     tag: "Automatiseren",
   },
   {
@@ -29,7 +29,7 @@ const CAPABILITIES = [
 const AMBITIONS = [
   "Van losse experimenten naar koppelingen die echt iets schelen",
   "Dieper in agents die context begrijpen in plaats van losse opdrachten uitvoeren",
-  "Blijven bouwen en bijleren met Claude als vaste sparringpartner",
+  "Blijven bouwen en bijleren, met Claude erbij als ik vastloop",
 ];
 
 function Reveal({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
