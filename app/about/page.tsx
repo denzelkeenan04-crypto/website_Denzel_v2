@@ -76,8 +76,7 @@ export default function AboutPage() {
                 schrijven met een doel. Geen nep-opdrachten, gewoon werk met deadlines.
               </p>
               <p>
-                Naast mijn werk hou ik van bewegen en de wereld ontdekken. Het afgelopen jaar
-                bezocht ik 9 landen. In het weekend ren ik 8 kilometer, speel ik padel in
+                Naast mijn werk hou ik van bewegen. In het weekend ren ik 8 kilometer, speel ik padel in
                 teamverband en train ik 4 à 5 keer per week. Hyrox, de combinatie van kracht
                 en uithoudingsvermogen, is mijn nieuwste uitdaging. Die gedrevenheid neem ik
                 mee naar alles wat ik aanpak.
@@ -99,7 +98,6 @@ export default function AboutPage() {
                   { label: "Woonplaats",  val: "Sneek, Friesland" },
                   { label: "Opleiding",   val: "MBO Marketing & Communicatie" },
                   { label: "School",      val: "Firda, Sneek" },
-                  { label: "Landen",      val: "9 bezocht (afgelopen jaar)" },
                   { label: "Email",       val: "denzelkeenan04@gmail.com" },
                 ].map(({ label, val }) => (
                   <div key={label} className="flex justify-between gap-4">
