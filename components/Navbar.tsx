@@ -11,6 +11,7 @@ const NAV = [
   { label: "About",     href: "/about" },
   { label: "Ervaring",  href: "/experience" },
   { label: "Projecten", href: "/projects" },
+  { label: "AI",        href: "/ai" },
   { label: "Contact",   href: "/contact" },
 ];
 
@@ -57,7 +58,7 @@ export default function Navbar() {
             </span>
           </Link>
 
-          {/* Links — desktop */}
+          {/* Links - desktop */}
           <div className="hidden md:flex items-center gap-1">
             {NAV.map(({ label, href }) => {
               const active = pathname === href;
@@ -81,7 +82,7 @@ export default function Navbar() {
             })}
           </div>
 
-          {/* CTA — desktop */}
+          {/* CTA - desktop */}
           <Link
             href="/contact"
             className="hidden md:flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold text-white transition-all duration-200 hover:opacity-85"
@@ -93,7 +94,7 @@ export default function Navbar() {
             </svg>
           </Link>
 
-          {/* Menuknop — alleen op telefoon. Zonder deze knop was er op
+          {/* Menuknop - alleen op telefoon. Zonder deze knop was er op
               mobiel geen enkele manier om naar een andere pagina te gaan. */}
           <button
             type="button"
@@ -118,8 +119,8 @@ export default function Navbar() {
           </button>
         </nav>
 
-        {/* Uitklapmenu — telefoon.
-            Bewust géén dekkingsanimatie: die bleef halverwege hangen op
+        {/* Uitklapmenu - telefoon.
+            Bewust geen dekkingsanimatie: die bleef halverwege hangen op
             0,69 waardoor je de pagina dwars door het menu heen las.
             Volledig ondoorzichtig wit, zodat het altijd leesbaar is. */}
         {open && (
