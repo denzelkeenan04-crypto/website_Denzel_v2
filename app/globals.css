@@ -60,5 +60,27 @@ a:hover {
   100% { transform: translateX(-50%); }
 }
 
+/* Zichtbare focus voor toetsenbordgebruikers - zonder dit is niet te zien
+   waar je bent als je met Tab door de site loopt. */
+:focus-visible {
+  outline: 2px solid #38bdf8;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Respecteer de systeeminstelling verminder beweging. Animaties worden
+   dan vrijwel stilgezet in plaats van uitgeschakeld, zodat de layout klopt. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
 .animate-float   { animation: float 7s ease-in-out infinite; }
 .animate-marquee { animation: marquee 30s linear infinite; }
