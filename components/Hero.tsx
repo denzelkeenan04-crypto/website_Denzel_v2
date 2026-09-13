@@ -284,28 +284,6 @@ export default function Hero() {
               </Link>
             </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.72, duration: 0.6 }}
-              className="flex flex-wrap items-center gap-6"
-            >
-              <div className="flex items-center gap-2">
-                {["#7c3aed","#0ea5e9","#22c55e"].map((c, i) => (
-                  <div key={i} className="w-7 h-7 rounded-full border-2 border-white -ml-2 first:ml-0" style={{ background: c }} />
-                ))}
-                <span className="text-xs text-[#a1a1aa] ml-1">3 live klanten bediend</span>
-              </div>
-              <div className="h-4 w-px bg-[#e4e4e7]" />
-              <div className="flex items-center gap-1">
-                {[1,2,3,4,5].map(s => (
-                  <svg key={s} width="12" height="12" viewBox="0 0 12 12" fill="#f59e0b">
-                    <path d="M6 1l1.4 2.8 3.1.45-2.25 2.2.53 3.1L6 8.15 3.22 9.55l.53-3.1L1.5 4.25l3.1-.45z"/>
-                  </svg>
-                ))}
-                <span className="text-xs text-[#a1a1aa] ml-1">Friesland, NL</span>
-              </div>
-            </motion.div>
           </div>
 
           {/* Rechts — 3D foto */}
