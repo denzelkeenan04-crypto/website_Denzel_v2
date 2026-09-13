@@ -1,5 +1,3 @@
-const a = { b: "test" };
-const c = [1,2];
 "use client";
 
 import { motion } from "framer-motion";
