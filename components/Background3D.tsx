@@ -8,6 +8,10 @@ export default function Background3D() {
 
   useEffect(() => {
     if (!containerRef.current) return;
+
+    // Wie in zijn systeem bewegingsreductie aan heeft staan, krijgt geen
+    // draaiende WebGL-achtergrond. Scheelt ook flink wat rekenwerk.
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     const container = containerRef.current;
 
     // ═════════════════════════════════════════════════════════════
@@ -27,7 +31,7 @@ export default function Background3D() {
 
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
     renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
     container.appendChild(renderer.domElement);
 
     // ═════════════════════════════════════════════════════════════
