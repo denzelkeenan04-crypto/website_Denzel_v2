@@ -61,7 +61,6 @@ const EXPERIENCE = [
       "Gaf samen met andere stagiairs een marketing workshop aan twee VWO-klassen van verschillende scholen",
       "Websitebeheer en -optimalisatie voor klanten (WordPress + Elementor)",
       "SEO-analyses en implementaties via Yoast SEO",
-      "Google Analytics-rapportages voor klantpresentaties",
       "Assistentie bij fotografie en videoproductie op locatie",
     ],
     deliverables: [
