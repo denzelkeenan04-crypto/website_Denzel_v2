@@ -52,7 +52,7 @@ const PROJECTS: SkillProject[] = [
   {
     num:        "03",
     skill:      "Community Management",
-    what:       "Reddit-community van 0 opgebouwd",
+    what:       "Reddit-community vanaf nul opgebouwd",
     learned: [
       "Community branding en bannercreatie ontworpen",
       "Posts en discussies opgestart om engagement te stimuleren",
