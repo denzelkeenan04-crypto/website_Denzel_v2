@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const SKILLS = [
   { cat: "Marketing & Content", items: ["Copywriting", "Social Media", "Content Strategie", "Community Management"] },
-  { cat: "Web & SEO",           items: ["WordPress", "Elementor", "Yoast SEO", "Google PageSpeed", "Google Analytics"] },
+  { cat: "Web & SEO",           items: ["WordPress", "Elementor", "Yoast SEO", "Google PageSpeed"] },
   { cat: "Visueel",             items: ["Fotografie", "Videografie", "Canva", "Figma"] },
   { cat: "Soft Skills",         items: ["Zelfstandig werken", "Presenteren", "Feedback verwerken", "Plannen"] },
 ];
