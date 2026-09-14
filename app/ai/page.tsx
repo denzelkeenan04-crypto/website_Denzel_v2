@@ -110,8 +110,8 @@ export default function AiPage() {
                 en zit de rest in iemands hoofd. Hoe groter het bedrijf wordt, hoe meer overzicht er verdwijnt.
               </p>
               <p>
-                Ik heb van dichtbij gezien wat er gebeurt als je dat wel op een plek zet, en dat is blijven hangen.
-                Zelf bouw ik dat op kleinere schaal na: dashboards waarin ik in een scherm zie wat er speelt, en
+                Ik heb van dichtbij gezien wat er gebeurt als je dat wél op één plek zet, en dat is blijven hangen.
+                Zelf bouw ik dat op kleinere schaal na: dashboards waarin ik in één scherm zie wat er speelt, en
                 koppelingen die de gegevens er automatisch in krijgen.
               </p>
             </div>
