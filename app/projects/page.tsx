@@ -325,7 +325,6 @@ export default function ProjectsPage() {
         >
           {[
             { v: "6",    l: "Vaardigheden geleerd" },
-            { v: "3+",   l: "Live websites geraakt" },
             { v: "100%", l: "Echte klantprojecten" },
             { v: "5mo",  l: "Stage-ervaring" },
           ].map(({ v, l }) => (
