@@ -96,58 +96,24 @@ export default function AiPage() {
 
         <div className="mt-24">
           <Reveal>
-            <p className="text-xs font-mono uppercase tracking-[0.18em] text-white mb-3">Van dichtbij gezien</p>
-            <h2 className="text-3xl font-black tracking-tight text-white mb-10">Een werkplek waar alles samenkomt.</h2>
+            <p className="text-xs font-mono uppercase tracking-[0.18em] text-white mb-3">Waar mijn interesse vandaan komt</p>
+            <h2 className="text-3xl font-black tracking-tight text-white mb-8">Overzicht is het echte probleem.</h2>
           </Reveal>
 
           <Reveal delay={0.1}>
             <div
-              className="rounded-2xl p-8 lg:p-10"
-              style={{
-                background: "rgba(9, 20, 45, 0.72)",
-                border: "1px solid rgba(125,211,252,0.22)",
-                boxShadow: "0 8px 48px rgba(56,189,248,0.08)",
-              }}
+              className="max-w-3xl pl-6 space-y-5 text-base text-white leading-[1.9]"
+              style={{ borderLeft: "2px solid rgba(125,211,252,0.35)" }}
             >
-              <div className="grid lg:grid-cols-[1fr_300px] gap-8 items-start">
-                <div className="space-y-5 text-base text-white leading-[1.9]">
-                  <p>
-                    Via Ruben heb ik de <span className="text-accent font-semibold">Business Cockpit</span> van A Mi Manera
-                    van dichtbij kunnen volgen: een werkplek waarin strategie, marketing, KPI-dashboards, workflows en
-                    AI-agents niet in losse documenten leven maar in een systeem samenkomen.
-                  </p>
-                  <p>
-                    Wat mij daaraan pakt is het probleem dat het oplost. Strategie in het ene document, cijfers in het
-                    andere, en de rest in iemands hoofd. Een plek waar alles zichtbaar is, verandert hoe je werkt.
-                  </p>
-                  <p>
-                    Ik heb er niet aan meegebouwd. Ik heb het van dichtbij gezien, vragen gesteld over hoe het in elkaar
-                    zit, en er veel van opgestoken. Zelf maak ik dashboards op kleinere schaal, voor mijn eigen projecten:
-                    hetzelfde idee, ander formaat.
-                  </p>
-                </div>
-
-                <div className="flex flex-col gap-3">
-                  {["Strategie", "KPI-dashboards", "Workflow-automatisering", "Context-aware agents", "Kennisbank"].map((m) => (
-                    <div
-                      key={m}
-                      className="flex items-center gap-3 px-4 py-3 rounded-xl"
-                      style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)" }}
-                    >
-                      <span className="w-1.5 h-1.5 rounded-full flex-shrink-0" style={{ background: "#38bdf8" }} />
-                      <span className="text-sm text-white">{m}</span>
-                    </div>
-                  ))}
-                  <a
-                    href="https://www.amimanera.io/cockpit"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs font-mono uppercase tracking-wide mt-2 text-accent"
-                  >
-                    Bekijk de Cockpit
-                  </a>
-                </div>
-              </div>
+              <p>
+                Bij de meeste organisaties zit de strategie in het ene document, staan de cijfers in het andere
+                en zit de rest in iemands hoofd. Hoe groter het bedrijf wordt, hoe meer overzicht er verdwijnt.
+              </p>
+              <p>
+                Ik heb van dichtbij gezien wat er gebeurt als je dat wel op een plek zet, en dat is blijven hangen.
+                Zelf bouw ik dat op kleinere schaal na: dashboards waarin ik in een scherm zie wat er speelt, en
+                koppelingen die de gegevens er automatisch in krijgen.
+              </p>
             </div>
           </Reveal>
         </div>
