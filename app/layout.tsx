@@ -10,7 +10,7 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Denzel Keenan — Marketing & Web Specialist",
+  title: "Denzel Keenan — Marketing & Communicatie",
   description:
     "Portfolio van Denzel Keenan — Marketing & Communicatie student en BPV-stagiair bij Brandmerck. Webdevelopment, SEO en content vanuit Friesland.",
 };
