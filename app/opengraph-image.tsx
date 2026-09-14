@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 
 // Deelafbeelding voor WhatsApp, LinkedIn en andere platforms. Wordt bij de
 // build als PNG gegenereerd, dus er hoeft geen losse afbeelding in de repo.
-export const alt = "Denzel Keenan - Marketing & Web Specialist";
+export const alt = "Denzel Keenan - Marketing & Communicatie";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -67,7 +67,7 @@ export default function Image() {
               display: "flex",
             }}
           >
-            Marketing &amp; Web Specialist
+            Marketing &amp; Communicatie
           </div>
         </div>
 
