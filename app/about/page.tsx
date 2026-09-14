@@ -188,7 +188,7 @@ export default function AboutPage() {
         <Reveal delay={0.1}>
           <div className="mt-20">
             <p className="text-xs font-mono uppercase tracking-[0.18em] text-white mb-3">Toolkit</p>
-            <h2 className="text-3xl font-black tracking-tight text-white mb-10">Wat ik meebring</h2>
+            <h2 className="text-3xl font-black tracking-tight text-white mb-10">Wat ik meebreng</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
               {SKILLS.map(({ cat, items }, ci) => (
                 <motion.div
